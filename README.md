@@ -12,8 +12,11 @@
 	var x;
 	for (x = 0; x <= numbers.length; x++){
 	 if (numbers[x] > 50){
-    console.log (numbers[x])
- }
+         console.log (numbers[x])
+ 	}
+	else {
+	console.log(Error)
+	}
 }
 </code>
 </pre>
